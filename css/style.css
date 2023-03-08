@@ -3,6 +3,7 @@
 body {
     background-color: #ffffff;
     color: var(--brand-color);
+    font-family: 'Roboto', sans-serif;
 }
 .tel {
     text-decoration: none;
