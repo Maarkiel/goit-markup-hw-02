@@ -105,7 +105,7 @@ ul {
 
     color: #FFFFFF;
 }
-.squedo {
+.squad {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -115,28 +115,7 @@ ul {
 
     color: #212121;
 }
-.advantages {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    color: #212121;
-}
-.advantages2 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-
-    letter-spacing: 0.03em;
-
-    color: #757575;
-}
-.ppl {
+.squad__title {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -148,7 +127,7 @@ ul {
     
     color: #212121;    
 }
-.ppl2 {
+.squad__description {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -158,6 +137,27 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     
+    color: #757575;
+}
+.advantages {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.advantages__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
     color: #757575;
 }
 .adress {
@@ -182,7 +182,18 @@ ul {
 
     color: #212121;
 }
-.portfolio2 {
+.portfolio__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+.portfolio__desc {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
