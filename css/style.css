@@ -5,6 +5,19 @@ body {
     color: var(--brand-color);
     font-family: 'Roboto', sans-serif;
 }
+.button {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
 .tel {
     text-decoration: none;
     font-style: normal;
@@ -181,16 +194,4 @@ ul {
     letter-spacing: 0.03em;
 
     color: #757575;
-}
-.btn {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    cursor:pointer;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
 }
